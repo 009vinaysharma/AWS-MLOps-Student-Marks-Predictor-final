@@ -22,13 +22,9 @@ The final result is a complete project demonstrating both:
 
 ---
 
-# 🌐 Live Application
+## 🌐 Live Application
 
-## Production Website
-
-```text
-https://markspredictor.vinaysharmatech.xyz
-```
+🚀 **Live Demo:** [Open Student Marks Predictor](https://markspredictor.vinaysharmatech.xyz)
 
 The production application is hosted using:
 
