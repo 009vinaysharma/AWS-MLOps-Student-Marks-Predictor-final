@@ -1,3 +1,4 @@
+from fastapi.responses import FileResponse
 import json
 import requests
 
@@ -47,6 +48,10 @@ class Student(BaseModel):
 # ==========================================
 # HOME ROUTE
 # ==========================================
+@app.get("/ui")
+def frontend():
+    return FileResponse("index (1).html")
+
 
 @app.get("/")
 def home():
@@ -204,7 +209,7 @@ if __name__ == "__main__":
 
     uvicorn.run(
         "app:app",
-        host="127.0.0.1",
-        port=5000,
+        host="0.0.0.0",
+        port=8000,
         reload=True
     )
